@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "CNJ": "5001682-88.2020.8.13.0672",
+        "part_names": "Nelson Willians & Advogados Associados",
+        "court_origin": "TJSP",
+        "start_date": "19/07/2018",
+        "transactions": [
+            {
+                "id": 1,
+                "date": "07/12/2020",
+                "description": "A última movimentação processual por parte do Juízo está no despacho datado em ()/2019, ou seja, mais de 1 ano sem movimentação processual pelo Juízo da 1ª Vara Cível da Comarca de Juazeiro, Estado da..."
+            },
+            {
+                "id": 2,
+                "date": "15/03/2021",
+                "description": "Excelência REQUERER o andamento do feito, observando-se que o processo está conclusos para decisão desde (DATA DA ÚLTIMA MOVIMENTAÇÃO...PROCESSUAL)"
+            },
+            {
+                "id": 3,
+                "date": "14/07/2021",
+                "description": "Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos modernos....sen"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "CNJ": "220115-88.2020.8.13.0671",
+        "part_names": "Jean Willians & Advogados Associados",
+        "court_origin": "TRF",
+        "start_date": "18/07/2018",
+        "transactions": [
+            {
+                "id": 1,
+                "date": "07/12/2020",
+                "description": "A última movimentação processual por parte do Juízo está no despacho datado em ()/2019, ou seja, mais de 1 ano sem movimentação processual pelo Juízo da 1ª Vara Cível da Comarca de Juazeiro, Estado da..."
+            },
+            {
+                "id": 2,
+                "date": "15/03/2021",
+                "description": "Excelência REQUERER o andamento do feito, observando-se que o processo está conclusos para decisão desde (DATA DA ÚLTIMA MOVIMENTAÇÃO...PROCESSUAL)"
+            },
+            {
+                "id": 3,
+                "date": "14/07/2021",
+                "description": "Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos modernos....sen"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "CNJ": "500115-88.2020.8.13.0682",
+        "part_names": "Jean Willians & Advogados Associados",
+        "court_origin": "TJSP",
+        "start_date": "18/07/2018",
+        "transactions": [
+            {
+                "id": 1,
+                "date": "07/12/2020",
+                "description": "A última movimentação processual por parte do Juízo está no despacho datado em ()/2019, ou seja, mais de 1 ano sem movimentação processual pelo Juízo da 1ª Vara Cível da Comarca de Juazeiro, Estado da..."
+            },
+            {
+                "id": 2,
+                "date": "15/03/2021",
+                "description": "Excelência REQUERER o andamento do feito, observando-se que o processo está conclusos para decisão desde (DATA DA ÚLTIMA MOVIMENTAÇÃO...PROCESSUAL)"
+            },
+            {
+                "id": 3,
+                "date": "14/07/2021",
+                "description": "Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos modernos....sen"
+            }
+        ]
+    }
+]
