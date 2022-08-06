@@ -1,0 +1,23 @@
+{
+  "name": "procedural_consultation_back",
+  "version": "1.0.0",
+  "description": "- Clone este repositório no seu computador\r - Com o projeto aberto você deve rodar os seguintes comandos em seu terminal para instalar as dependencias:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeatrizBacelar/procedural_consultation_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeatrizBacelar/procedural_consultation_backend/issues"
+  },
+  "homepage": "https://github.com/BeatrizBacelar/procedural_consultation_backend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
