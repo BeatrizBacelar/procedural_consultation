@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/BeatrizBacelar/procedural_consultation_backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.1"
   }
 }
