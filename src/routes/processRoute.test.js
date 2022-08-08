@@ -1,8 +1,17 @@
 const request = require('supertest')
 const server = require('../app')
 
-test('acessa a rota /get_courts e deve retornar a lista de tribunais', async () => {
+test('acessa a rota GET /get_courts e deve retornar a lista de tribunais', async () => {
   const response = await request(server).get('/get_courts');
   expect(response.status).toEqual(200);
   expect(response.text).toContain("[\"TJSP\",\"TRF\"]");
+});
+
+test('acessa a rota POST /get_process e deve retornar o(s) processo(s) com CNJ e tribunal correspondente', async () => {
+  const response = await (await request(server).post('/get_process').send({
+    court: "TJSP",
+    processNumber: '5001',
+  }))
+  expect(response.status).toEqual(200);
+  expect(response.text).toContain("[{\"id\":1,\"CNJ\":\"5001682-88.2020.8.13.0672\",\"part_names\":{\"author\":\"Jean Willians & Advogados Associados\",\"defendant\":\"Construnelli in Works\",\"lawyers\":[{\"name\":\"Gabriel Monteiro\",\"register\":\"002337/BA\"},{\"name\":\"Larissa Duarte\",\"register\":\"002378/BA\"}]},\"process_details\":[\"Cumprimento de Sentenças - Honorários Advocatícios\",\"TJSP - Fórum Jão Mendes Júnior\",\"Processo Judicial - Rito Ordinário\",\"Processo Julgado º 1ª Instância º Valor da causa: R$1387,90 \"],\"court_origin\":\"TJSP\",\"start_date\":\"15/06/2018\",\"transactions\":[{\"id\":1,\"date\":\"07/12/2020\",\"description\":\"A última movimentação processual por parte do Juízo está no despacho datado em ()/2019, ou seja, mais de 1 ano sem movimentação processual pelo Juízo da 1ª Vara Cível da Comarca de Juazeiro, Estado da...\"},{\"id\":2,\"date\":\"15/03/2021\",\"description\":\"Excelência REQUERER o andamento do feito, observando-se que o processo está conclusos para decisão desde (DATA DA ÚLTIMA MOVIMENTAÇÃO...PROCESSUAL)\"},{\"id\":3,\"date\":\"14/07/2021\",\"description\":\"Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos modernos....sen\"}]},{\"id\":3,\"CNJ\":\"500115-88.2020.8.13.0682\",\"part_names\":{\"author\":\"Jean Willians & Advogados Associados\",\"defendant\":\"Construnelli in Works\",\"lawyers\":[{\"name\":\"João Cordeiro\",\"register\":\"009877/BA\"},{\"name\":\"Vladimir Costa\",\"register\":\"004547/BA\"}]},\"process_details\":[\"Cumprimento de Sentenças - Honorários Advocatícios\",\"TJSP - Fórum Jão Mendes Júnior\",\"Processo Judicial º Rito Ordinário\",\"Processo Julgado º 1ª Instância º Valor da causa: R$1387,90 \"],\"court_origin\":\"TJSP\",\"start_date\":\"02/07/2021\",\"transactions\":[{\"id\":1,\"date\":\"07/12/2020\",\"description\":\"A última movimentação processual por parte do Juízo está no despacho datado em ()/2019, ou seja, mais de 1 ano sem movimentação processual pelo Juízo da 1ª Vara Cível da Comarca de Juazeiro, Estado da...\"},{\"id\":2,\"date\":\"15/03/2021\",\"description\":\"Excelência REQUERER o andamento do feito, observando-se que o processo está conclusos para decisão desde (DATA DA ÚLTIMA MOVIMENTAÇÃO...PROCESSUAL)\"},{\"id\":3,\"date\":\"14/07/2021\",\"description\":\"Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos modernosPRESIDENTE Des. ADOLFO AMARO MENDES Vogal Des. PEDRO NELSON DE MIRANDA COUTINHODes. JOÃO RIGO GUIMARÃES Des. MARCO VILLAS BOAS Vogal Desª. ETELVINA MARIA SAMPAIO FELIPE JUIZ A AUXILIAR DA PRESIDÊNCIA Desª. ÂNGELA MARIA R .PRUDENTE Suplente\"}]}]");
 });
