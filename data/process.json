@@ -2,9 +2,29 @@
     {
         "id": 1,
         "CNJ": "5001682-88.2020.8.13.0672",
-        "part_names": "Nelson Willians & Advogados Associados",
+        "part_names": 
+        {
+            "author" : "Jean Willians & Advogados Associados",
+            "defendant": "Construnelli in Works",
+            "lawyers": [
+                {
+                    "name": "Gabriel Monteiro",
+                    "register": "002337/BA" 
+                },
+                {
+                    "name": "Larissa Duarte",
+                    "register": "002378/BA" 
+                }
+            ]
+        },
+        "process_details": [
+            "Cumprimento de Sentenças - Honorários Advocatícios",
+            "TJSP - Fórum Jão Mendes Júnior",
+            "Processo Judicial - Rito Ordinário",
+            "Processo Julgado º 1ª Instância º Valor da causa: R$1387,90 "
+        ],
         "court_origin": "TJSP",
-        "start_date": "19/07/2018",
+        "start_date": "15/06/2018",
         "transactions": [
             {
                 "id": 1,
@@ -26,9 +46,29 @@
     {
         "id": 2,
         "CNJ": "220115-88.2020.8.13.0671",
-        "part_names": "Jean Willians & Advogados Associados",
+        "part_names": 
+            {
+                "author" : "Jean Willians & Advogados Associados",
+                "defendant": "Construnelli in Works",
+                "lawyers": [
+                    {
+                        "name": "Jean Marcos", 
+                        "register": "007837/BA" 
+                    },
+                    {
+                        "name": "Marcos Silva",
+                        "register": "001347/BA" 
+                    }
+                ]
+            },
+        "process_details": [
+            "Cumprimento de Sentenças - Honorários Advocatícios",
+            "TJSP - Fórum Jão Mendes Júnior",
+            "Processo Judicial - Rito Ordinário",
+            "Processo Julgado º 1ª Instância º Valor da causa: R$1387,90 "
+        ],
         "court_origin": "TRF",
-        "start_date": "18/07/2018",
+        "start_date": "18/02/2020",
         "transactions": [
             {
                 "id": 1,
@@ -43,16 +83,36 @@
             {
                 "id": 3,
                 "date": "14/07/2021",
-                "description": "Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos modernos....sen"
+                "description": "Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos moderno"
             }
         ]
     },
     {
         "id": 3,
         "CNJ": "500115-88.2020.8.13.0682",
-        "part_names": "Jean Willians & Advogados Associados",
+        "part_names": 
+            {
+                "author" : "Jean Willians & Advogados Associados",
+                "defendant": "Construnelli in Works",
+                "lawyers": [
+                    {
+                        "name": "João Cordeiro", 
+                        "register": "009877/BA" 
+                    },
+                    {
+                        "name": "Vladimir Costa",
+                        "register": "004547/BA" 
+                    }
+                ]
+            },
+        "process_details": [
+            "Cumprimento de Sentenças - Honorários Advocatícios",
+            "TJSP - Fórum Jão Mendes Júnior",
+            "Processo Judicial º Rito Ordinário",
+            "Processo Julgado º 1ª Instância º Valor da causa: R$1387,90 "
+        ],
         "court_origin": "TJSP",
-        "start_date": "18/07/2018",
+        "start_date": "02/07/2021",
         "transactions": [
             {
                 "id": 1,
@@ -67,7 +127,7 @@
             {
                 "id": 3,
                 "date": "14/07/2021",
-                "description": "Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos modernos....sen"
+                "description": "Isso acontece a cada vez que uma movimentação processual da sua execução é disponibilizada pelos meios de publicidade oficias. Devemos considerar o peso que a mídia possui nos tempos modernosPRESIDENTE Des. ADOLFO AMARO MENDES Vogal Des. PEDRO NELSON DE MIRANDA COUTINHODes. JOÃO RIGO GUIMARÃES Des. MARCO VILLAS BOAS Vogal Desª. ETELVINA MARIA SAMPAIO FELIPE JUIZ A AUXILIAR DA PRESIDÊNCIA Desª. ÂNGELA MARIA R .PRUDENTE Suplente"
             }
         ]
     }
