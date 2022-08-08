@@ -4,8 +4,8 @@
 - Express
 - MVC
 
-A API desenvolvida consome uma arquivo JSON já populado existente no projeto com duas rotas principais:
-- /get_courts retorna os tribunais existentes no JSON
+A API desenvolvida consome um arquivo JSON já populado existente no projeto com duas rotas principais:
+- /get_courts retorna os tribunais existentes 
 - /get_process retorna os processos filtrados por tribunal e número do processo
 
 # 💻 Como testar a aplicação criada:
