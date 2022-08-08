@@ -1,8 +1,6 @@
 const express = require('express');
 var cors = require('cors');
 const app = express();
-const router = express.Router();
-const res = require('express/lib/response');
 
 //Rotas
 const index = require('./routes/index');
