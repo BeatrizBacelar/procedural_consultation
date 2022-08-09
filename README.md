@@ -11,7 +11,7 @@ A API desenvolvida consome um arquivo JSON já populado existente no projeto com
 # 💻 Como testar a aplicação criada:
 
 - Clone este repositório no seu computador
-- Com o projeto aberto você deve rodar os seguintes comandos em seu terminal para instalar as dependencias:
+- Com o projeto aberto você deve rodar os seguintes comandos em seu terminal para instalar as dependências;
 
 ```shell
     yarn install / npm install
@@ -21,12 +21,6 @@ A API desenvolvida consome um arquivo JSON já populado existente no projeto com
 
 ```shell
     node . / node index.js
-```
-
-- Para iniciar a aplicação você deve realizar o seguinte comando:
-
-```shell
-    yarn start / npm start
 ```
 
 - Para realizar testes na aplicação:
